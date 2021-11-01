@@ -6,7 +6,9 @@ class Die extends Component {
         return (
             <div>
                 {/* display dice icon with the number sent through props */}
-                <i className={`Die fas fa-dice-${this.props.face}`}></i>
+                <i className={`Die fas fa-dice-${this.props.face} 
+                ${this.props.rolling ? 'Die-rolling' : ''}`
+                }></i>
             </div>
         );
     }

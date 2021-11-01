@@ -6,6 +6,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <h1>Deanna's Dice Roller</h1>
                 <RollDice />
             </div>
         );
